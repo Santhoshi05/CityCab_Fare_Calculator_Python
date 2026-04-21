@@ -48,6 +48,7 @@ while True:
     print(f"Vehicle Type  : {vehicle_type}")
     print(f"Start Time    : {hour:02d}:{minu:02d}")
     print(f"Total Fare    : {price}")
+    print()
     again = input("Do you want to continue(yes/no): ").lower()
     if again != "yes":
         print("Thank you user")
