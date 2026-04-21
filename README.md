@@ -4,13 +4,14 @@ It uses a loop-driven approach to allow users to calculate multiple rides and pr
 The system ensures proper validation using exception handling to avoid invalid inputs and incorrect data.
 
 ## FARE CALCULATION LOGIC
--Base fare is calculated as:
+Base fare is calculated as:
 Distance × Rate per km
--Vehicle rates:
-Economy → ₹10 per km
-Premium → ₹18 per km
-SUV → ₹25 per km
--Surge Pricing:
+Vehicle rates:
+Economy - ₹10 per km, 
+Premium - ₹18 per km, 
+SUV - ₹25 per km.
+
+Surge Pricing:
 If ride time is between 5 PM (17:00) and 8 PM (20:00) → fare is multiplied by 1.5x
 
 ## KEY FEATURES
