@@ -12,7 +12,7 @@ Premium - ₹18 per km,
 SUV - ₹25 per km.
 
 Surge Pricing:
-If ride time is between 5 PM (17:00) and 8 PM (20:00) → fare is multiplied by 1.5x
+If ride time is between 5 PM (17:00) and 8 PM (20:00) - fare is multiplied by 1.5x
 
 ## KEY FEATURES
 - Menu-driven console application
