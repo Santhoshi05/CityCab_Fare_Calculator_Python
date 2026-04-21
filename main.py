@@ -13,7 +13,7 @@ while True:
         try:
             km = float(input("Enter distance in km:"))
             if km <=0:
-                raise ValueError("Enter valid distance")
+                raise ValueError("Enter valid distance in number")
             break
         except ValueError as e:
             print(e)
@@ -31,7 +31,7 @@ while True:
                 exit()
     while True:
         try:
-            time = input("Enter start time in hour(0-23): ")
+            time = input("Enter start time in 24 hours format(HH MM) : ")
             p = time.split()
             if len(p) != 2:
                 raise ValueError("Enter time in format: HH MM")
